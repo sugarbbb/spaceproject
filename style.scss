@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap');
+$font-family-sans-serif :'Roboto', sans-serif;
+$font-size-base :1.1rem;
+$table-cell-padding-y:        .5rem;
+
+
+$body-color:#666d6b ;
+$black : #252e2c;
+$primary :#008060;
+$dark :#515856;
+$warning : #F1B980;
+
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1320px
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+    h1,h2,h3,h4,h5{
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.cb{
+    border-radius: 50% !important;
+  }
+  #star-img{
+      width: 16px;
+  }
+  .fsa{
+      font-size: 20px;
+  }
+  .fwa{
+      font-weight: 500;
+  }
+  .middle{
+      background-color: rgba(241,185,128,.1);
+  }
+  
+  .card-color{
+      background: #005c45;
+  }
+  .card-lg{
+      border: 0;
+      border-radius: 0;
+      
+  }
+  .card-acc{
+      padding: 20px;
+      border: 0;
+  }
+  .footer-acc{
+      bottom: 0 !important;
+      padding: 0 !important;
+  }
+  .accordion-button::before{
+      background-image: url(./img/star-half.svg) !important;
+  }
+ .footer li{
+     color: white;
+ }
+ .footer li a{
+     text-decoration: none;
+     color: white;
+ }
+  
+ .soft-light{
+     background-color: rgba(249,250,252,.1);
+     border-color: transparent;
+     color: #f9fafc;
+ }
+.primary-light{
+    color: #00bd8e!important;
+
+}
+.card-transition:hover{
+    transform: translateY(-0.4rem)!important;
+
+}
+
+@media screen and(maxwidth:900px) {
+    .img-one{
+        width: 80%;
+    }
+}
